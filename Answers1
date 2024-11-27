@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage with text, images, and links.">
+    <title>My Simple Webpage</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+        <p>This is a basic webpage showcasing text, images, and links with semantic HTML tags.</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+            <article>
+                <h2>About Me</h2>
+                <p>Hello! I'm a web enthusiast learning HTML. I enjoy building simple websites to practice my skills.</p>
+                <img src="https://via.placeholder.com/400" alt="Placeholder Image" />
+            </article>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Here are some of my favorite images:</p>
+            <ul>
+                <li><img src="https://via.placeholder.com/150" alt="Placeholder Image 1" /></li>
+                <li><img src="https://via.placeholder.com/150" alt="Placeholder Image 2" /></li>
+                <li><img src="https://via.placeholder.com/150" alt="Placeholder Image 3" /></li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to <a href="mailto:someone@example.com">email me</a>.</p>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Simple Webpage</p>
+        <p>Follow me on <a href="https://twitter.com" target="_blank">Twitter</a>!</p>
+    </footer>
+
+</body>
+</html>
